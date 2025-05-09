@@ -451,6 +451,7 @@ body {
 }
 .product-card {
     position: relative;
+    flex-shrink: 0;
     width: 300px;
     height: 450px;
     border-radius: 20px;
@@ -728,12 +729,13 @@ body {
         font-size: 24px;
     }
     .product-card {
-        width: 260px;
-        height: 420px;
+        width: 300px; 
+        height: 450px; 
+        margin: 15px auto; 
     }
     .product-card .product-image {
-        width: 180px;
-        height: 180px;
+        width: 200px; 
+        height: 200px; 
     }
 }
 
@@ -759,12 +761,12 @@ body {
         padding-left: 20px;
         font-size: 20px;
     }
-    .product-card {
-        width: 240px;
-        height: 400px;
+      .product-card {
+        width: 300px;
+        height: 450px; 
     }
     .product-card .product-image {
-        width: 160px;
-        height: 160px;
+        width: 200px;
+        height: 200px; 
     }
 }
